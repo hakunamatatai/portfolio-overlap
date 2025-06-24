@@ -1,3 +1,23 @@
+#Project Description
+
+Equity mutual funds are a collection of individual stocks. Fund overlap is the term used to quantify the percentage of common stocks between different mutual funds. Investors prefer to have funds with as low an overlap as possible, since investing in different mutual funds with a high overlap will not give the benefits of diversification.
+Available mutual funds and their respective stocks are mentioned here: https://geektrust.s3.ap-southeast-1.amazonaws.com/portfolio-overlap/stock_data.json
+
+Portfolio Overlap: Overlap is defined as a measure of the commonality between portfolios.
+Suppose there are 2 funds A & B. The overlap between them is given as the number of stocks in common, counting both portfolio A and B( (i.e. double counting the common elements) divided by the total number of elements in portfolio A and portfolio B.
+
+Overlap (A,B) = 2*(No of common stocks in A & B)/ (No of stocks in A + No of stocks in B) * 100
+
+The program take as input:
+1. Name of current funds the user holds in his/her portfolio.
+2. New funds to be added.
+3. Stock to be added for existing fund.
+
+The output should be
+1. Overlapping stocks of the new fund with the current funds.
+2. If a given fund name is not present while calculating overlap or adding stocks to existing fund, the output should be FUND_NOT_FOUND.
+
+
 # Pre-requisites
 * Java 1.8 / 1.17 
 * (Note: My local Java version is 17, but I’ve configured IDEA to compile and run with Java 8 compatibility. If you 
