@@ -1,4 +1,4 @@
-#Project Description
+# Project Description
 
 Equity mutual funds are a collection of individual stocks. Fund overlap is the term used to quantify the percentage of common stocks between different mutual funds. Investors prefer to have funds with as low an overlap as possible, since investing in different mutual funds with a high overlap will not give the benefits of diversification.
 Available mutual funds and their respective stocks are mentioned here: https://geektrust.s3.ap-southeast-1.amazonaws.com/portfolio-overlap/stock_data.json
